@@ -99,8 +99,59 @@ h4{
 
 .card{
     margin: 20px;
+    width: 500px;
+    height: 500px;
 }
 
 .card-img-top{
     width: 100%;
 }
+
+@media screen and (max-width: 768px) {
+    /* Estilos que se aplicarán en pantallas de 768px o más de ancho */
+    .imgIlustrativa{
+        display: none;
+    }
+
+    .btnsRedes{
+        padding-bottom: 40px;
+    }
+
+    .contenedorMayor2{
+        height: 1400px;
+    }
+
+    .proyectos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        margin: 20px;
+        width: 400px;
+        height: 600px;
+    }
+
+    .card-body{
+        width: 100%;
+    }
+    
+    .card-img-top{
+        width: 100%;
+    }
+
+  }
+
+  @media screen and (max-width: 1024px) {
+    /* Estilos que se aplicarán en pantallas de 1024px o más de ancho */
+    .imgIlustrativa{
+        display: none;
+    }
+
+    .btnsRedes{
+        padding-bottom: 40px;
+    }
+    
+  }
