@@ -1,0 +1,50 @@
+.contenedorMayor2{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f5f8;
+    height: 600px;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h4{
+    color: #102a42;
+    letter-spacing: 3px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-decoration: underline;
+    text-decoration-color: #b30b0b;
+    text-decoration-thickness: 3px;   /* ← grosor del subrayado */
+    text-underline-offset: 4px;       /* ← separación del texto */
+}
+
+.proyectos{
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 400px;
+    width: 300px;
+    height: 300px;
+}
+
+img{
+    width: 100%;
+}
+
+.tarjetaB{
+    background-color: #fff;
+}
+
+a{
+    margin-left: 10px;
+}

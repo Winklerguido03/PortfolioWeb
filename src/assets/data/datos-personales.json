@@ -1,12 +1,11 @@
 
 {	
-  "nombre": "tu nombre",
+  "nombre": "Winkler Guido",
   "titulo": "Estudiante de Desarrollo de Software",
   "Institucion": "IES 63", 
-  "descripcion": "....",
   "foto": "assets/img/foto-perfil.jpg",
-  "email": "mail@example.com",
-  "telefono": "+54 9 3482 5555555",
-  "linkedin": "https://linkedin.com/in/...",
-  "github": "https://github.com/..."
+  "email": "winklerguido2003@gmail.com",
+  "telefono": "+54 9 3482 315947",
+  "linkedin": "https://www.linkedin.com/in/winkler-guido-530611296/",
+  "github": "https://github.com/Winklerguido03"
 }

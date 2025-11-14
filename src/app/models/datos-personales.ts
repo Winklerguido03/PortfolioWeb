@@ -1,5 +1,4 @@
 export interface DatosPersonales {
-    
         nombre: string,
         titulo: string,
         Institucion: string, 

@@ -1,1 +1,22 @@
-<p>sobre-mi works!</p>
+<div class="contenedorMayor2">
+    <div class="titulo">
+            <h4>Sobre Mi</h4>
+    </div>
+    <div class="proyectos">
+        @if (datosP) {
+            <div class="tarjeta">
+                <img [src]="datosP.foto">
+                <div class="tarjetaB">
+                  <p class="tarjetaT"><strong>NOMBRE:</strong>{{datosP.nombre}}</p>
+                  <p class="tarjetaT"><strong>TITULO:</strong>{{datosP.titulo}}</p>
+                  <p class="tarjetaT"><strong>INSTITUCION:</strong>{{datosP.Institucion}}</p>
+                  <p class="tarjetaT"><strong>EMAIL:</strong>{{datosP.email}}</p>
+                  <p class="tarjetaT"><strong>TELEFONO:</strong>{{datosP.telefono}}</p>
+                  <a [href]="datosP.linkedin"><strong>LINKEDIN</strong></a>
+                  <a [href]="datosP.github"><strong>GITHUB</strong></a>
+                </div>
+              </div>
+        }
+        
+        
+    </div>
