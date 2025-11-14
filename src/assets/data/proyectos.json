@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "img":"assets/img/portfolio.PNG",
+    "proyecto": "Página Web de Noticias",
+    "descripcion": "Aplicación CRUD con Java y JSP.",
+    "tecnologias": ["Java", "Spring", "MySQL"],
+    "linkRepositorio": "https://github.com/...",
+	"asignatura": "Programación I",
+	"docente": "Analía Casali"
+
+},
+  {
+    "id": 2,
+    "img":"assets/img/portfolio.PNG",
+    "proyecto": "Portfolio Angular",
+    "descripcion": "Sitio web personal desarrollado con Angular 20.",
+    "tecnologias": ["Angular", "TypeScript"],
+    "linkRepositorio": "https://github.com/...",
+	"asignatura": "Programación I",
+	"docente": "Analía Casali"
+  }
+]

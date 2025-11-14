@@ -1,0 +1,31 @@
+.container-fluid{
+    background-color: #fff;
+}
+
+.bg-body-tertiary{
+    --bs-bg-opacity:1;
+    background-color:#fff !important;
+}
+
+.nav-link{
+    font-family: 'roboto';
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.nav-link:hover {
+    color: #b30b0b;
+    text-decoration: underline;
+    text-decoration-color: #b30b0b;
+    text-decoration-thickness: 3px;   /* ← grosor del subrayado */
+    text-underline-offset: 4px;       /* ← separación del texto */
+    transition: all 0.3s linear;
+  }
+
+.navbar-nav{
+    margin-right: 100px;
+}
+
+.navbar-brand{
+    margin-left: 100px;
+}
